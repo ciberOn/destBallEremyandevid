@@ -11,7 +11,6 @@ const arrVariants = [
     "ia nichego wam ne skazy",
     "zzzzzzzzzzzzz",
     "Ask another one",
-    "ZOV",
     "idk",
     "I think another time",
     "y teba net sansow",
@@ -19,7 +18,7 @@ const arrVariants = [
 
 const btn = document.getElementById("btn")
 
-btn.addEventListener("Click",()=>{
+btn.addEventListener("click",()=>{
     const randInt = Math.floor (Math.random()*arrVariants.length)
     alert(arrVariants[randInt])
 })
